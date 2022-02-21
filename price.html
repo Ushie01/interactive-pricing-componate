@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="price.css">
+    <title>Frontend Mentor | Interactive pricing component</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row pattern">
+            <div class="pattern-circle">
+                <h2>Simple, traffic-based pricing</h2>
+                <p id="par1">Sign-up for our 30-day trial. No credit card required</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="white_sheet">
+                <div class="wrapper">
+                    <div class="space">
+                        <div class="par">
+                            <p class="pageviews">100K PAGEVIEWS</p>
+                        </div>
+                        <div class="par">
+                            <div class="progressBar"><input type="range" min="1" max="32" value="16" class="slider" id="range"></div>
+                        </div>
+                        <div class="par">
+                            <div class="par1">
+                                <p class="sixteen">$16.00</p>
+                                <p class="month"> / month</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="items">
+                    <div class="bill">
+                        <p>Monthly Billing</p>
+                    </div>
+                    <div class="bill">
+                        <div id="button">
+                            <div id="inner_button"></div>
+                        </div>
+                    </div>
+                    <div class="bill">
+                        <p>Yearly Billing</p>
+                    </div>
+                    <div class="bill">
+                        <p id="discount">24% discount</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="footer">
+                    <div class="left">
+                        <p class="page"><img src="images/icon-check.svg"> &nbsp; &nbsp; Unlimited Websites </p>
+                        <p class="page pg1"><img src="images/icon-check.svg"> &nbsp; &nbsp; 100% data ownership </p>
+                        <p class="page pg2"><img src="images/icon-check.svg"> &nbsp; &nbsp; Email report </p>
+                    </div>
+                    <div class="left">
+                        <button class="right button"> start my trial </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="price.js"></script>
+</body>
+
+</html>
